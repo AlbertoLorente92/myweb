@@ -3,8 +3,9 @@
 <head>
 	<title>A Dos Manos Creations - Performance Art</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/javascript.js"></script>
 </head>
-<body>
+<body onload="checkSubmit();">
 	
 	<!--END OF TERMS OF USE-->
 <div id="header">				
@@ -25,10 +26,25 @@
 </div>
 
 	<div id="content">
-			
-			<p> &iexcl;&iexcl;Ya tenemos web!!</p>
-			<p>Estamos muy ilusionados por ense&ntilde;aros nuestra nueva p&aacute;gina web. Aqu&iacute; trataremos de ense&ntilde;aros todos nuestros trabajos y proyectos.</p>
-			<p>Unete a nosotros en un viaje lleno de emociones  </p>
+
+<h2>Envianos un correo!</h2>
+<p>* campo requerido</span></p>
+<form method="post" action=""> 
+   Nombre:
+     <input type="text" id="name" value="" onblur="checkName(this);">   
+    <span class="error">*</span>
+   <br>
+   <br>
+   E-mail:
+   <input type="text" id="email" value="" onblur="checkEmail(this);">   
+   <span class="error">*</span>
+   <br><br>
+   Mensaje: 
+   <br><textarea id="comment" rows="5" cols="40" onblur="checkText(this);"></textarea>
+   <br><br>
+   <input type="submit" id="submit" value="Enviar"> 
+</form>
+
 	</div>
 <div id="footer">
 	<p>Copyright &copy; 2015. All rights reserved to A Dos Manos Creations. .</p>
