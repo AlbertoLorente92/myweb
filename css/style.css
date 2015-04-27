@@ -65,7 +65,7 @@
 	padding: 3px 0px;
 	height: 50px;
 	border-top: 2px solid #FFFFFF;
-	background: #8fa819;
+	background: #BF4009;
 }
 
 #footer p {
@@ -78,4 +78,8 @@
 
 #footer a {
 	color: #ffffff;
+}
+
+table{
+	border: 0px;
 }
