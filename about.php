@@ -6,24 +6,9 @@
 	<script type="text/javascript" src="js/javascript.js"></script>
 </head>
 <body>
-	
-	<!--END OF TERMS OF USE-->
-<div id="header">				
-				  				
+<?php include('header.php') ?>
 
-			  		<img src="img/logo2.jpg" alt="Mountain View" width="100" height="86" style="width:304px;height:200px">
-					<img src="img/logo3.png" alt="Mountain View" width="517" height="86" style="width:304px;height:200px"></div>
-
-	
-<div id="menu">
-	<ul>
-		<li class="active"><a href="index.html"title="">HOME</a></li>
-		<li><a href="about.html" title="">CONOCENOS</a></li>
-		<li><a href="work.html"  title="">TRABAJOS</a></li>
-		<li><a href="social.html"  title="">SOCIAL</a></li>
-		<li><a href="contact.html"  title="">CONTACTO</a></li>
-	</ul>
-</div>
+<?php include('menu.php') ?>
 
 	<div id="content">
 			
@@ -36,12 +21,9 @@
                   Para conocernos m&aacute;s en profundidad puedes hacer click en cada uno de nosotros aqu&iacute; abajo
                   <p>&nbsp;</p></th>
               </tr>
-      </table>
-			</div>
-	<div id="footer">
-	<p>Copyright &copy; 2015. All rights reserved to A Dos Manos Creations. .</p>
-</div>
-<br/>
-</div>
+      		</table>
+	</div>
+
+<?php include('footer.php') ?>
 </body>
 </html>
