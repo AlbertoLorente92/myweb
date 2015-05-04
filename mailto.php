@@ -1,7 +1,7 @@
 <!DOCTYPE HTML> 
 <html>
 <head>
-<title>A Dos Manos Creations - Performance Art</title>
+   <title>A Dos Manos Creations - Performance Art</title>
    <link href="css/style.css" rel="stylesheet" type="text/css" />
    <script type="text/javascript" src="js/javascript.js"></script>
 </head>
@@ -9,54 +9,56 @@
 
 <?php
 // define variables and set to empty values
-$name = $email = $gender = $comment = $website = "";
+$nameErr = $emailErr = "";
+$name = $email = $comment = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   $name = test_input($_POST["name"]);
-   $email = test_input($_POST["email"]);
-   $website = test_input($_POST["website"]);
-   $comment = test_input($_POST["comment"]);
-   $gender = test_input($_POST["gender"]);
-}
+   if (empty($_POST["name"])) {
+     $nameErr = "Name is required";
+   } else {
+     $name = test_input($_POST["name"]);
+   }
+   
+   if (empty($_POST["email"])) {
+     $emailErr = "Email is required";
+   } else {
+     $email = test_input($_POST["email"]);
+   }
 
-function test_input($data) {
-   $data = trim($data);
-   $data = stripslashes($data);
-   $data = htmlspecialchars($data);
-   return $data;
+   if (empty($_POST["comment"])) {
+     $comment = "";
+   } else {
+     $comment = test_input($_POST["comment"]);
+   }
+
+   // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
+   $comment = wordwrap($comment, 70, "\r\n");
+
+   mail($email,"ADosManosCreations",$comment);
+   
 }
+   function test_input($data) {
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+   }
 ?>
-
 <div id="content">
-   <h2>Envianos un correo!</h2>
-   <p>* campo requerido</span></p>
-   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
-      Nombre: 
-      <input type="text" name="name" onblur="checkName(this);">
-      <span class="error">*</span>
-      <br><br>
-      E-mail: 
-      <input type="text" name="email" onblur="checkEmail(this);">
-      <span class="error">*</span>
-      <br><br>
-      Mensaje: <textarea name="comment" rows="5" cols="40" onblur="checkText(this);"></textarea>
-      <br><br>
-      <input type="submit" name="submit" value="Submit"> 
-   </form>
+<h2>Envianos un correo!</h2>
+<p><span class="error">* campo requerido.</span></p>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
+   Nombre: <input type="text" name="name" id="name" onblur="checkName(this);">
+   <span class="error">* <?php echo $nameErr;?></span>
+   <br><br>
+   E-mail: <input type="text" name="email" id="email" onblur="checkEmail(this);">
+   <span class="error">* <?php echo $emailErr;?></span>
+   <br><br>
+   Mensaje: <textarea name="comment" rows="5" cols="40" id="comment" onblur="checkText(this);"></textarea>
+   <br><br>
+   <input type="submit" name="submit" value="Enviar" id="submit"> 
+</form>
 
-
-   <?php
-   echo "<h2>Muchas Gracias por tu correo $name</h2>";
-   echo $name;
-   echo "<br>";
-   echo $email;
-   echo "<br>";
-   echo $website;
-   echo "<br>";
-   echo $comment;
-   echo "<br>";
-   echo $gender;
-   ?>
-</div>
+</div>   
 </body>
 </html>
