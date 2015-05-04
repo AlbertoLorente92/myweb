@@ -23,6 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      $emailErr = "Email is required";
    } else {
      $email = test_input($_POST["email"]);
+     // check if e-mail address is well-formed
+     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+       $emailErr = "Invalid email format"; 
+     }
    }
 
    if (empty($_POST["comment"])) {
@@ -51,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    Nombre: <input type="text" name="name" id="name" onblur="checkName(this);">
    <span class="error">* <?php echo $nameErr;?></span>
    <br><br>
-   E-mail: <input type="text" name="email" id="email" onblur="checkEmail(this);">
+   E-mail: <input type="text" name="email" id="email"  onblur="checkEmail(this);">
    <span class="error">* <?php echo $emailErr;?></span>
    <br><br>
    Mensaje: <textarea name="comment" rows="5" cols="40" id="comment" onblur="checkText(this);"></textarea>
