@@ -3,7 +3,7 @@ var nameOK = false;
 var textOk = false;
 
 function checkSubmit(){
-	if(email && nameOK && textOk){
+	if(emailOk && nameOK && textOk){
 		document.getElementById('submit').disabled = false;
 	} else {
 		document.getElementById('submit').disabled = true;
