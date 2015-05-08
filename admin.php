@@ -1,6 +1,7 @@
 <?php
 $servername = "127.0.0.1";
 $dbname = "myDB";
+$conected = false;
 
 $account = $password = "";
 
@@ -26,12 +27,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    	$conn;
    	try{
    		$conn = new mysqli($servername, $account, $password, $dbname);
+   		$conected = true;
    	} catch(mysqli_sql_exception $e){
    		$log = false;
    	}
 
-   	
-   	
+
+
 	if($log)
 		$conn->close();
    }
@@ -56,39 +58,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
-<div id="admin">
-	<img src="img/logo2.jpg" width="517" height="86" style="width:304px;height:200px">
+<?php 
+if($conected == FALSE){
+	include("login.php");
+}else{
+	include("index.php");
+}
 
-	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-		<table id="login">
-			<tr>
-				<td>
-					<p>
-						Account:
-					</p>
-				</td>
-				<td>
-					<input type="text" name="account" id="account">
-				</td>
-			</tr>	
-			<tr>
-				<td>
-					<p>
-						Password:
-					</p>
-				</td>
-				<td>
-					<input type="password" name="password" id="password">
-				</td>
-			</tr>	
-			<tr>
-				<td colspan="2">
-					<input type="submit" name="submit" value="Enviar" id="loginsubmit">
-				</td>
-			</tr>	
-		</table>
-	</form>
-</div>
-</div>
+?>
+
 </body>
 </html>
