@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    <br><br>
    Mensaje: <textarea name="comment" rows="5" cols="40" id="comment" onblur="checkText(this);"></textarea>
    <br><br>
-   <input type="submit" name="submit" value="Enviar" id="submit"> 
+   <input type="submit" name="submit" value="Enviar" id="submit">
 </form>
 
 </div>   
