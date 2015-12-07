@@ -6,7 +6,7 @@
 	<script type="text/javascript" src="js/javascript.js"></script>
 </head>
 <body>
-
+	<?php include('header.php') ?>
 	<?php include('menu.php') ?>
 
 	<div id="content">  

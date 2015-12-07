@@ -1,4 +1,3 @@
 <div id="header">				
-	<img src="img/logo2.jpg" alt="Mountain View" width="100" height="86" style="width:304px;height:200px">
-	<img src="img/logo3.png" alt="Mountain View" width="517" height="86" style="width:304px;height:200px">
+	<img src="img/header2.jpg" alt="Header img" width="1920px" height="250px">
 </div>
