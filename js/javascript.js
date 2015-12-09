@@ -38,6 +38,26 @@ function checkText(elem){
 	}
 }
 
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.menu').addClass('fixed');
+    } else {
+        $('.menu').removeClass('fixed');
+    }
+});
+
+$("document").ready(function($){
+    var nav = $('#menu');
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 125) {
+            nav.addClass("f-nav");
+        } else {
+            nav.removeClass("f-nav");
+        }
+    });
+});
+
 function checkEmail(elem){
 	var email = document.getElementById(elem.id).value;
 	if(email.length==0){
