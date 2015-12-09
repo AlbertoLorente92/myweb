@@ -5,10 +5,14 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/javascript.js"></script>
 </head>
-<body>
+<body onload="javascript:window_onload();">
 	<header class="header" id="homeHeader">	
 		<!-- NAVIGATION LINKS -->
-		<div id="menu">			
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div class="navbar_absolute" id="menu">
 			<ul class="active">
 				<li><a class="navbar" href="#"><img src="/img/ALlogo.png" alt="Logo AlbertoLorente" width="450" height="75"></a></li>
 				<li><a href="#home">Home</a></li>

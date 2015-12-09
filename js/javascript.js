@@ -38,25 +38,23 @@ function checkText(elem){
 	}
 }
 
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
-        $('.menu').addClass('fixed');
-    } else {
-        $('.menu').removeClass('fixed');
-    }
-});
 
-$("document").ready(function($){
-    var nav = $('#menu');
+function window_onload() {
+  window.addEventListener("scroll",navbar_reset_top,false);
+}
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 125) {
-            nav.addClass("f-nav");
-        } else {
-            nav.removeClass("f-nav");
-        }
-    });
-});
+var navbar_top=75;
+
+function navbar_reset_top() {
+  var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+  if(scrollTop>navbar_top && menu.className==="navbar_absolute") {
+    document.getElementById("menu").className="navbar_fixed";
+  }
+  else if(scrollTop<navbar_top && menu.className==="navbar_fixed") {
+    document.getElementById("menu").className="navbar_absolute";
+  }
+}
+
 
 function checkEmail(elem){
 	var email = document.getElementById(elem.id).value;
