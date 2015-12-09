@@ -4,24 +4,38 @@
 	<title>Alberto Lorente. Software Engineer</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/javascript.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 </head>
 <body onload="javascript:window_onload();">
 	<header class="header" id="homeHeader">	
 		<!-- NAVIGATION LINKS -->
-		<br/>
-		<br/>
-		<br/>
-		<br/>
 		<div class="navbar_absolute" id="menu">
-			<ul class="active">
-				<li><a class="navbar" href="#"><img src="/img/ALlogo.png" alt="Logo AlbertoLorente" width="450" height="75"></a></li>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#studies">Studies</a></li>
-				<li><a href="#workExperience">Work Experience</a></li>			
-				<li><a href="#recommendations">Recommendations</a></li>		
-				<li><a href="#jobs">Jobs</a></li>
-				<li><a href="#personal">Personal</a></li>
-			</ul>
+			<br/>
+			<table>
+				<tr>
+					<td>
+						<a class="navbar" href="#"><img src="/img/ALlogo.png" alt="Logo AlbertoLorente" width="400" height="65"></a>
+					</td>
+					<td id="entryMenu">
+						<a href="#home">Home</a>
+					</td>
+					<td id="entryMenu">
+						<a href="#studies">Studies</a>
+					</td>
+					<td id="entryMenu">
+						<a href="#workExperience">Work Experience</a>
+					</td>
+					<td id="entryMenu">
+						<a href="#recommendations">Recommendations</a>
+					</td>
+					<td id="entryMenu">
+						<a href="#jobs">Jobs</a>
+					</td>
+					<td id="entryMenu">
+						<a href="#personal">Personal</a>
+					</td>
+				</tr>
+			</table>
 		</div>
 		
 		<div id="blueBackG">
