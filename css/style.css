@@ -34,6 +34,10 @@ li{
 	font-family: "Myriad Pro", Myriad, "Lucida Console", Monaco, monospace;
 }
 
+td{
+	text-align: center;
+}
+
 table{
 	width: 95%;
 }
@@ -77,7 +81,7 @@ table{
 
 .blueEnd{
 	background: #36A8E1;
-	color: #FFFFFF;
+	color: white;
 	width: 100%;
 	border: 0px;
 }
@@ -97,9 +101,13 @@ table{
 	border: 0px;
 }
 
+.textCenter{
+	padding: 100px;
+	text-align: left;
+}
+
 #logo{
-	margin: 20px;
-	
+	margin: 20px;	
 }
 
 #entryMenu{

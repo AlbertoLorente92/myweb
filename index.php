@@ -56,93 +56,104 @@
 	</header>
 	
 	<section class="whiteBackG" id="studies">
-		<div id="content">  
+		<div class="textCenter">  
 			<br/><br/><br/><br/><br/>
 			<h1>Studies</h1>
-			<p><strong>Master en Ingenieria Informatica.</strong> Universidad Complutense. Madrid. Actualmente.</p>
-			<p><strong>Grado en Ingeniería del Software.</strong> Universidad Complutense. Madrid. 2015.</p>
-			<p><strong>Técnico en Operaciones Aeroportuarias (TOA).</strong> Escuela Superior de Aeronáutica. Madrid. 2011</p>
-			<p><strong>Bachillerato.</strong> Colegio Cooperativa San Saturio. Madrid. 2010.</p>
+			<p><strong>Master in Computer Engineering</strong> Complutense University. Madrid. Now.</p>
+			<p><strong>Software Engineering's Degree.</strong> Complutense University. Madrid. 2015.</p>
+			<p><strong>Technician Airport Operations (TAO).</strong> College of Aeronautics. Madrid. 2011</p>
+			<p><strong>Bachelor's Degree.</strong> San Saturio School. Madrid. 2010.</p>
 		</div>
 	</section>
 	
 	<section class="grayBackG" id="workExperience">
-		<div id="content">  
+		<div class="textCenter">  
 			<br/><br/><br/>	<br/><br/>
 			<h1>Work Experience</h1>
-			<p><strong>BECARIO INFORMÁTICA.</strong> Facultad de Derecho (UCM). Madrid. Actualmente.</p>
-			<p>En el Vicedecanato de Innovación y Calidad manteniendo la página web de la misma además de la de otros másteres y títulos.</p>
-			<p><strong>BECARIO INFORMÁTICA.</strong> Facultad de Estudios Estadísticos (UCM). Madrid. 2014.</p>
-			<p>En el departamento de Investigación Operativa colaboraba en mantenimiento de sistemas (Linux, Windows) en redes y equipos; gestión de bases de datos en My SQL y Access; resolución de incidencias.</p>
-			<p><strong>PROFESOR PARTICULAR</strong> Matemáticas, Física, Dibujo Técnico. Madrid. 2009.</p>
+			<p><strong>Computer Scholar.</strong> Law School (UCM). Madrid. Now.</p>
+			<p>Working with the Dean of Innovation and Quality maintaining the website of the School in addition to the other masters and titles.</p>
+			<p><strong>Computer Scholar.</strong> Faculty of Statistical Studies (UCM). Madrid. 2014.</p>
+			<p>Working in the Operations Research department assists in maintaining (Linux, Windows) systems in networks and equipment; management of databases My SQL and Access; troubleshooting.</p>
+			<p><strong>Tutor</strong> Mathematics, Physics, Technical Drawing. Madrid. 2009</p>
 		</div>
 	</section>
 
 	<section class="whiteBackG" id="recommendations">
-		<div id="content">  
+		<div class="textCenter">  
 			<br/><br/><br/>	<br/><br/>
 			<h1>Recommendations</h1>
-			<p>Compenso mi escasa experiencia profesional con un alto grado de satisfaccion de mis superiores en el trabajo</p>
-			<p>En mi trabajo actual he sido recomendado Para la beca de excelencia deloitte por dos grandes profesionales</p>
-			<p><strong>Pilar Peiteado Mariscal.</strong> Vicedecana de Calidad e Innovacion de la Facultad de Derecho (UCM). Pulsa aqui para ver la carta</p>
-			<p><strong>Alfredo Muñoz Garcia.</strong> Director de Master de Acceso a la Profesion de Abogado. Pulsa aqui para ver la carta</p>
+			<p>My little professional experience compensates with a high degree of satisfaction of my superiors at work</p>
+			<p>In my current job I have been recommended for the award of excellence Deloitte two great professionals</p>
+			<p><strong>Pilar Peiteado Mariscal.</strong> Dean of Innovation and Quality of Law School (UCM). Click <a href="/img/pilar.jpg" target="_blank">here</a> to see it (spanish).</p>
+			<p><strong>Alfredo Mu&ntilde;oz Garcia.</strong> Director of Master of Access to the Profession of Lawyer. Click <a href="/img/alfredo.jpg" target="_blank">here</a> to see it (spanish).</p>
 			<p></p>
-			<p>En mi trabajo de Becario de Informática en la Facultad de Estadistica no solicite carta de recomendacion 
-			pero si convalide mi trabajo como practicas en empresa obteniendo como puede verse en mi expediente un Sobresaliente por
-			el trabajo realizado</p>
+			<p>In my work as Computer Scholar at the Faculty of Statistics I didn't request a letter of recommendation. However I validate my work as 
+			External Practices where i get an outstanding mark</p>
 		</div>
 	</section>
 	
 	<section class="grayBackG" id="jobs">
-		<div id="content">  
+		<div class="textCenter">  
 			<br/><br/><br/>	<br/><br/>
 			<h1>Jobs</h1>
-			<p>Durante la carrera la mayoria de trabajos, tanto individuales como en grupo los guardamos en dropbox. Actualmente 
-			estoy recopilando estos trabajos y trasladandolos a <a href="https://github.com/AlbertoLorente92" target="_blank">GitHub</a>.</p>
-			<p>Actualemten en el master tambien estoy realizando trabajos con visibilidad privada que liberare al final del mismo</p>
-			<p>Todos estos trabajos me sirvieron para aprender cantidad de lenguajes de programacion como: </p>
+			<p>During the Degree most work, both individually and in groups I keep them in Dropbox. I am currently collecting 
+			these works and moving them to <a href="https://github.com/AlbertoLorente92" target="_blank">GitHub</a>.</p>
+			<p>Currently in the master I'm also doing work with private visibility. I will liberate it when i finish the Master</p>
+			<p>All these works helped me to learn many languages like: </p>
 			<ul>
 				<li>Java</li>
-				<li>C y C++</li>
-				<li>HTML, JavaScript y PHP</li>
-				<li>Bases de datos MySQL y Oracle</li>
+				<li>C and C++</li>
+				<li>HTML, JavaScript and PHP</li>
+				<li>Database MySQL y Oracle</li>
 				<li>Python</li>
 				<li>Maude</li>
 			</ul>
-			<p>Estos dos ultimos estoy aprendiendolos en el Master</p>
+			<p>These last two'm learning in the Master</p>
 		</div>
 	</section>
 	
 	<section class="whiteBackG" id="personal">
-		<div id="content">  
+		<div class="textCenter">  
 			<br/><br/><br/>	<br/><br/>
 			<h1>Personal</h1>
-			<p>A finales del tercer curso del grado comence a trabajar en la facultad de estadistica, al mismo tiempo en la familia
-			comenzaron a aparecer problemas economicos por lo que el ultimo año de carrera me lo empece a pagar mientras trabajaba.</p>
-			<p>Mi trabajo se solapaba con mis estudios impidiendome ir a clase la mayoria del tiempo. Aun asi logre aprobar todas
-			las asginaturas del primer cuatrimestre algunas incluso con notas altas.</p>
-			<p>Ahora trabajo en la facultad de derecho por la mañana y voy al master por la tarde. Estudiando y haciendo practicas
-			cuando y donde puedo.</p>
-			<p>No hay mucho que decir salvo las tipicas frases de; es por tu futuro, quien algo quiere, algo le cuesta...</p>
-			<p>Pero yo prefiero otras mejores, Work Hard and never give up!</p>
+			<p>At the end of the third degree course I started working at the Faculty of Statistics. At the same time economic problems in the 
+			family began to appear. So the last year I started to pay me the university.</p>
+			<p>My work overlaps with my studies stopping going to school most of the time. Still I passed all the first quarter subjects some of them with high marks.</p>
+			<p>Now I work in law school in the morning and go to master the afternoon. Studying and doing practical when and where I can.</p>
+			<p>There's not much to say except the typical phrases (spanish); "es por tu futuro" (it's for your future)...</p>
+			<p>But I prefer other better, Work Hard and never give up!</p>
 		</div>
 	</section>
 	
 	<section class="blueEnd" id="social">
-		<div id="content">  
-			<h1>SOCIAL</h1>
+		<div class="blueEnd">
+			<br/>
+			<table>
+				<tr>
+					<td>
+						<a href="mailto:alberto.lorente92@gmail.com"><img src="/img/gmail.jpg" alt="Gmail alberto.lorente92@gmail.com" width="100" height="100"></a>
+					</td>
+					<td>
+						<a href="https://github.com/AlbertoLorente92" target="_blank"><img src="/img/github.png" alt="GitHub AlbertoLorente92" width="100" height="100"></a>
+					</td>
+				</tr>
+			</table>
+			<br/>
 		</div>
 	</section>
 
 	<section class="grayEnd" id="agreement">
-		<div id="content">  
-			<h1>AGRADECIMIENTOS</h1>
+		<div class="">  
+			<p align="center"><a class="navbar" href="#"><img src="/img/ALlogo.png" alt="Logo AlbertoLorente" width="400" height="65" align="middle"></a></p>
 		</div>
 	</section>
 	
 	<section class="blueEnd" id="foot">
-		<div id="content">  
-			<h1>FOOTER</h1>
+		<div class="">  
+			<br/>
+			<h5 align="center">Alberto Lorente S&aacute;nchez - alberto.lorente92@gmail.com</h5>
+			<h5 align="center">All images created by Javier Arnanz - javiermoka@gmail.com</h5>
+			<br/>
 		</div>
 	</section>
 </body>
