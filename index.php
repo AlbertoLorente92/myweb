@@ -54,13 +54,13 @@
 			</table>
 		</div>
 	</header>
-	
+	https://drive.google.com/file/d/0B1MxBhOQaDc-S3pUTWE4cmVhYm8/view?usp=sharing
 	<section class="whiteBackG" id="studies">
 		<div class="textCenter">  
 			<br/><br/><br/><br/><br/>
 			<h1>Studies</h1>
 			<p><strong>Master in Computer Engineering</strong> Complutense University. Madrid. Now.</p>
-			<p><strong>Software Engineering's Degree.</strong> Complutense University. Madrid. 2015.</p>
+			<p><strong>Software Engineering's Degree.</strong> Complutense University. Madrid. 2015. Click  <a href="https://drive.google.com/open?id=0B1MxBhOQaDc-S3pUTWE4cmVhYm8" target="_blank">here</a> to see my accademic record</p>
 			<p><strong>Technician Airport Operations (TAO).</strong> College of Aeronautics. Madrid. 2011</p>
 			<p><strong>Bachelor's Degree.</strong> San Saturio School. Madrid. 2010.</p>
 		</div>
