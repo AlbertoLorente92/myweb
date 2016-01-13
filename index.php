@@ -54,14 +54,13 @@
 			</table>
 		</div>
 	</header>
-	https://drive.google.com/file/d/0B1MxBhOQaDc-S3pUTWE4cmVhYm8/view?usp=sharing
 	<section class="whiteBackG" id="studies">
 		<div class="textCenter">  
 			<br/><br/><br/><br/><br/>
 			<h1>Studies</h1>
 			<p><strong>Master in Computer Engineering</strong> Complutense University. Madrid. Now.</p>
-			<p><strong>Software Engineering's Degree.</strong> Complutense University. Madrid. 2015. Click  <a href="https://drive.google.com/open?id=0B1MxBhOQaDc-S3pUTWE4cmVhYm8" target="_blank">here</a> to see my accademic record</p>
-			<p><strong>Technician Airport Operations (TAO).</strong> College of Aeronautics. Madrid. 2011</p>
+			<p><strong>Software Engineering's Degree.</strong> Complutense University. Madrid. 2015. Click  <a href="https://drive.google.com/open?id=0B1MxBhOQaDc-S3pUTWE4cmVhYm8" target="_blank">here</a> to see my accademic record.</p>
+			<p><strong>Technician Airport Operations (TAO).</strong> College of Aeronautics. Madrid. 2011.</p>
 			<p><strong>Bachelor's Degree.</strong> San Saturio School. Madrid. 2010.</p>
 		</div>
 	</section>
@@ -74,7 +73,7 @@
 			<p>Working with the Dean of Innovation and Quality maintaining the website of the School in addition to the other masters and titles.</p>
 			<p><strong>Computer Scholar.</strong> Faculty of Statistical Studies (UCM). Madrid. 2014.</p>
 			<p>Working in the Operations Research department assists in maintaining (Linux, Windows) systems in networks and equipment; management of databases My SQL and Access; troubleshooting.</p>
-			<p><strong>Tutor</strong> Mathematics, Physics, Technical Drawing. Madrid. 2009</p>
+			<p><strong>Tutor</strong> Mathematics, Physics, Technical Drawing. Madrid. 2009.</p>
 		</div>
 	</section>
 
@@ -82,13 +81,13 @@
 		<div class="textCenter">  
 			<br/><br/><br/>	<br/><br/>
 			<h1>Recommendations</h1>
-			<p>My little professional experience compensates with a high degree of satisfaction of my superiors at work</p>
-			<p>In my current job I have been recommended for the award of excellence Deloitte two great professionals</p>
+			<p>My little professional experience compensates with a high degree of satisfaction of my superiors at work.</p>
+			<p>In my current job I have been recommended for the award of excellence Deloitte two great professionals.</p>
 			<p><strong>Pilar Peiteado Mariscal.</strong> Dean of Innovation and Quality of Law School (UCM). Click <a href="/img/pilar.jpg" target="_blank">here</a> to see it (spanish).</p>
 			<p><strong>Alfredo Mu&ntilde;oz Garcia.</strong> Director of Master of Access to the Profession of Lawyer. Click <a href="/img/alfredo.jpg" target="_blank">here</a> to see it (spanish).</p>
 			<p></p>
 			<p>In my work as Computer Scholar at the Faculty of Statistics I didn't request a letter of recommendation. However I validate my work as 
-			External Practices where i get an outstanding mark</p>
+			External Practices where i get an outstanding mark.</p>
 		</div>
 	</section>
 	
@@ -98,7 +97,8 @@
 			<h1>Jobs</h1>
 			<p>During the Degree most work, both individually and in groups I keep them in Dropbox. I am currently collecting 
 			these works and moving them to <a href="https://github.com/AlbertoLorente92" target="_blank">GitHub</a>.</p>
-			<p>Currently in the master I'm also doing work with private visibility. I will liberate it when i finish the Master</p>
+			<p>Currently in the master I'm also doing work with private visibility. I will liberate it as soon as I finish the Master.</p>
+			<p>If you want to see my final degree work  you could do it <a href="tfg.php">here</a>.</p>
 			<p>All these works helped me to learn many languages like: </p>
 			<ul>
 				<li>Java</li>
@@ -108,7 +108,7 @@
 				<li>Python</li>
 				<li>Maude</li>
 			</ul>
-			<p>These last two'm learning in the Master</p>
+			<p>These last two'm learning in the Master.</p>
 		</div>
 	</section>
 	
