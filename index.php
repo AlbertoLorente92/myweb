@@ -46,6 +46,7 @@
 					<td class="intro">
 						<h1>Software Engineer</h1>
 						<h5>This page is a personal and professional blog about me where I expose my work and thoughts to the network</h5>
+						<h5>Work in progres!</h5>
 					</td>
 					<td class="intro" style="text-align:center;">
 						<img src="/img/photo2.jpg" alt="AlbertoLorente" border="2" align="middle">

@@ -80,7 +80,7 @@
 
 	<section class="grayEnd" id="agreement">
 		<div class="">  
-			<p align="center"><a class="navbar" href="#"><img src="/img/ALlogo.png" alt="Logo AlbertoLorente" width="400" height="65" align="middle"></a></p>
+			<p align="center"><a class="navbar" href="index.php"><img src="/img/ALlogo.png" alt="Logo AlbertoLorente" width="400" height="65" align="middle"></a></p>
 		</div>
 	</section>
 	
