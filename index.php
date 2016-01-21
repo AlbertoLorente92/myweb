@@ -104,12 +104,13 @@
 			<ul>
 				<li>Java</li>
 				<li>C and C++</li>
-				<li>HTML, JavaScript and PHP</li>
-				<li>Database MySQL y Oracle</li>
+				<li>HTML, JavaScript, CSS and PHP</li>
+				<li>Database MySQL and Oracle</li>
 				<li>Python</li>
 				<li>Maude</li>
+				<li>MongoDB</li>
 			</ul>
-			<p>These last two'm learning in the Master.</p>
+			<p>The last three of them currently in learning the Master.</p>
 		</div>
 	</section>
 	
