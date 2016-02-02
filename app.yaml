@@ -4,11 +4,14 @@ runtime: php55
 api_version: 1
 
 handlers:
+- url: /dist
+  static_dir: dist 
+  
 - url: /css
   static_dir: css 
   
-- url: /js
-  static_dir: js 
+- url: /assets
+  static_dir: assets 
   
 - url: /img
   static_dir: img 
