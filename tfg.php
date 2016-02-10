@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="img/icon2.png">
 
     <title>Alberto Lorente. Software Engineer</title>
 
@@ -81,7 +81,12 @@
 		solve our problem and could be useful as a base to future developments.</p>
 		<p>This project was realized with the help of my two friends Juan Deltell and Jes&uacutes Mart&iacutenez.</p>
 		<p>If you want to read all our work you could do it <a href="http://eprints.ucm.es/32886/1/Memoria%20TFG%20-%20Resoluci%C3%B3n%20de%20laberintos%20en%20StarCraft%20empleando%20aprendizaje%20por%20refuerzo.pdf" target="_blank">here</a>.</p>
-		<p align="middle"><iframe width="560" height="315" src="https://www.youtube.com/embed/tYYGrzDSRLw" frameborder="0" allowfullscreen></iframe></p>
+		<div class="col-md-8">
+		<div class="embed-responsive embed-responsive-16by9"><p align="middle"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tYYGrzDSRLw" allowfullscreen></iframe></p></div>
+		</div>
+		<br/><br/><br/>
+
+    </div> <!-- /container -->
 
 	  <footer class="blog-footer">
 		<a href="mailto:alberto.lorente92@gmail.com"><img src="img/gmail.png" alt="Gmail alberto.lorente92@gmail.com" width="100" height="100"></a>
@@ -90,12 +95,6 @@
 	      <a href="#">Back to top</a>
 	    </p>
 	  </footer>
-		
-
-
-    </div> <!-- /container -->
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -71,7 +71,7 @@
 					<p>Work in progres!</p>
 				</td>
 				<td class="intro" style="text-align:center;">
-					<img src="img/photo2.jpg" alt="AlbertoLorente" border="2">
+					<img class="img-responsive" src="img/photo2.jpg" alt="AlbertoLorente" border="2">
 				</td>
 			</tr>
 		</table>
@@ -139,7 +139,9 @@
 		<p>Now I work in law school in the morning and go to master the afternoon. Studying and doing practical when and where I can.</p>
 		<p>There's not much to say except the typical phrases (spanish); "es por tu futuro" (it's for your future)...</p>
 		<p>But I prefer other better, Work Hard and never give up!</p>
-	    <br/><br/><br/>		
+	    <br/><br/><br/>
+		
+    </div> <!-- /container -->
 	  <footer class="blog-footer">
 		<a href="mailto:alberto.lorente92@gmail.com"><img src="img/gmail.png" alt="Gmail alberto.lorente92@gmail.com" width="100" height="100"></a>
 		<a href="https://github.com/AlbertoLorente92" target="_blank"><img src="img/github.png" alt="GitHub AlbertoLorente92" width="100" height="100"></a>
@@ -147,11 +149,6 @@
 	      <a href="#">Back to top</a>
 	    </p>
 	  </footer>
-		
-
-
-    </div> <!-- /container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
